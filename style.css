@@ -1,78 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap&#39');
-/* Estilos globais */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #00b300;
-    color: #000;
+.game-board {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
   }
   
-  /* Estilos do cabeçalho */
-  header {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
+  .square {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    font-size: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
   }
   
-  header h1 {
-    margin: 0;
-    font-size: 36px;
-  }
-  
-  /* Estilos do conteúdo */
-  section {
-    padding: 50px;
-  }
-  
-  section.about {
-    background-color: #fff;
-    color: #000;
-  }
-  
-  section.about h2 {
-    font-size: 28px;
-  }
-  
-  section.about p {
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  section.projects {
-    background-color: #000;
-    color: #fff;
-  }
-  
-  section.projects h2 {
-    font-size: 28px;
-  }
-  
-  section.projects ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  section.projects li {
-    margin: 10px 0;
-  }
-  
-  section.projects li a {
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  
-  /* Estilos do rodapé */
-  footer {
-    background-color: #000;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-  }
-  
-  footer p {
-    margin: 0;
-    font-size: 14px;
-  }
