@@ -1,23 +1,77 @@
-<<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>Jogo da Velha</title>
-  <link rel="stylesheet" href="style.css">
+	<title>Marketing Digital</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="game-board">
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-    <div class="square"></div>
-  </div>
-
-  <script src="script.js"></script>
+	<header>
+		<h1>Marketing Digital</h1>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Serviços</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+	
+	<main>
+		<section id="intro">
+			<h2>Bem-vindo ao mundo do Marketing Digital</h2>
+			<p>O Marketing Digital é a estratégia de divulgação de produtos e serviços utilizando meios digitais. Essa forma de marketing oferece diversas vantagens em relação aos métodos tradicionais.</p>
+		</section>
+		
+		<section id="services">
+			<h2>Nossos Serviços</h2>
+			<ul>
+				<li>SEO</li>
+				<li>Marketing de Conteúdo</li>
+				<li>Publicidade Online</li>
+				<li>Email Marketing</li>
+			</ul>
+		</section>
+		
+		<section id="blog">
+			<h2>Últimas Notícias</h2>
+			<ul>
+				<li>
+					<h3>Título da Notícia</h3>
+					<p>Descrição breve da notícia.</p>
+					<a href="#">Leia mais</a>
+				</li>
+				<li>
+					<h3>Título da Notícia</h3>
+					<p>Descrição breve da notícia.</p>
+					<a href="#">Leia mais</a>
+				</li>
+				<li>
+					<h3>Título da Notícia</h3>
+					<p>Descrição breve da notícia.</p>
+					<a href="#">Leia mais</a>
+				</li>
+			</ul>
+		</section>
+		
+		<section id="contact">
+			<h2>Entre em Contato</h2>
+			<form>
+				<label for="name">Nome:</label>
+				<input type="text" id="name" name="name"><br>
+				<label for="email">Email:</label>
+				<input type="email" id="email" name="email"><br>
+				<label for="message">Mensagem:</label>
+				<textarea id="message" name="message"></textarea><br>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	
+	<footer>
+		<p>&copy; 2023 Marketing Digital</p>
+	</footer>
 </body>
 </html>
